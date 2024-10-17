@@ -249,7 +249,13 @@ export default function Page() {
           "Discuss New Tech",
           "Collaborate On Ideas",
           "Innovate Together",
-          "Learn New S,kills",
+          "Learn New Skills",
+          "Share Your Vision",
+          "Create Impactful Solutions",
+          "Exchange Knowledge and Ideas",
+          "Build Something Amazing Together",
+          "Transform Concepts into Reality",
+          "Shape the Future Together",
         ]}
       />
             </div>
