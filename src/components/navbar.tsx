@@ -65,12 +65,28 @@ const LeetCodeIcon = () => (
     ></path>
   </svg>
 );
+const MailIcon = () => (
+  <svg
+    width="15"
+    height="15"
+    viewBox="0 0 15 15"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M1 3.5V11.5C1 12.3284 1.67157 13 2.5 13H12.5C13.3284 13 14 12.3284 14 11.5V3.5L8 7.5L1 3.5Z"
+      fill="currentColor"
+    />
+  </svg>
+);
+
 
 
 const iconMap = {
   linkedin: LinkedInIcon,
   github: GitHubIcon,
   leetcode: LeetCodeIcon,
+  mail: MailIcon,
 };
 
 export default function Navbar() {
