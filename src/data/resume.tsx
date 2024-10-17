@@ -3,7 +3,7 @@ import { HomeIcon } from "lucide-react";
 export const DATA = {
   name: "Niket Agarwal",
   initials: "DV",
-
+  url: "https://yourdomain.com",
   location: "Delhi, India",
   locationLink: "https://www.google.com/maps/place/delhi",
   description:
