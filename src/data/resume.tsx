@@ -74,7 +74,7 @@ export const DATA = {
       badges: [],
       location: "Delhi",
       title: "Undergraduate Researcher",
-      // logoUrl: "/atomic.png",
+      logoUrl: "",
       start: "August 2024",
       end: "Present",
       description:

@@ -6,6 +6,7 @@ interface BlurFadeTextProps {
   className?: string;
   animateByCharacter?: boolean;
   variant?: any;
+  yOffset?: number;
 }
 
 const BlurFadeText: React.FC<BlurFadeTextProps> = ({
