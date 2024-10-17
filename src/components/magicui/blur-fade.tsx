@@ -31,10 +31,10 @@ const BlurFade = ({
 }: BlurFadeProps) => {
   const ref = useRef(null);
 
-  // No need for MarginType, use string directly
-  const inViewResult = useInView(ref, { once: true, margin: inViewMargin });
-
+  // Use a type assertion to tell TypeScript this is a valid margin type
+  const inViewResult = useInView(ref, { once: true, margin: inViewMargin as any });
   const isInView = !inView || inViewResult;
+
   const defaultVariants: Variants = {
     hidden: { y: yOffset, opacity: 0, filter: `blur(${blur})` },
     visible: { y: -yOffset, opacity: 1, filter: `blur(0px)` },
