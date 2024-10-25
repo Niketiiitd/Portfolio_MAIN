@@ -42,7 +42,7 @@ export const DATA = {
     social: {
       linkedin: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/your-profile/",
+        url: "https://www.linkedin.com/in/niket-agarwal-iiitd/",
         icon: "linkedin", // Placeholder for the SVG icon
         navbar: true,
       },
