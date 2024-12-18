@@ -208,6 +208,7 @@ export const DATA = {
       title: "Woodpeckers Hackathon",
       dates: "July 19th - 28th, 2024",
       location: "India, Remote",
+      winner: false,
       description:
         "I developed Q-GPT, a web application that processes uploaded data files using the ChatGPT API. Users can ask questions about their data, and the application generates insightful responses based on the input. This project highlights the integration of natural language processing with data analysis, making data interaction more accessible and efficient.",
       image:
@@ -229,6 +230,7 @@ export const DATA = {
       title: "Hack4Change",
       dates: "July 21st - August 12th, 2024",
       location: "India, Remote",
+      winner: false,
       description:
         "I participated in two hackathons where I developed a web application using the ChatGPT API for data processing. In the first event, I created a tool that allows users to upload data files and ask questions to generate insights. My project was later shortlisted for mentor evaluation in a subsequent hackathon, demonstrating its potential and effectiveness in enhancing data interaction.",
       image:
@@ -239,6 +241,7 @@ export const DATA = {
       title: "Sparkathon",
       dates: "July 15th - Sept 20th 2024",
       location: "India, Remote",
+      winner: false,
       description:
         "I participated in Sparkathon conducted by Walmart, where we developed an idea for the future of retail by integrating voice commerce into the Walmart website. Our solution aimed to simplify the shopping experience by allowing users to interact with AI, making it easier to find products just by speaking their requests, with AI suggesting relevant items based on their needs.",
       icon: "public",
@@ -256,6 +259,7 @@ export const DATA = {
       title: "Hack24",
       dates: "August 21th - 22nd, 2024",
       location: "Delhi, India",
+      winner: false,
       description:
         "Developed a social media website enabling students to showcase projects, create reels, and chat in real-time, designed to function similarly to Instagram but focused on academic and creative projects.",
       image:
@@ -270,10 +274,12 @@ export const DATA = {
     },
     {
       title: "SIH",
-      dates: "October 1st - Present, 2024",
+      dates: "October 1st - Nov, 2024",
+      winner: false,
+      
       location: "Delhi, Remote",
       description:
-        "Developed a full-stack platform to connect experienced freelancers with new freelancers for collaboration on projects, enhancing their employment opportunities.",
+        "Developed a full-stack platform to connect experienced freelancers with new freelancers for collaboration on projects, enhancing their employment opportunities. We made it through internal hackathons but were'nt able to make it to finals. ",
       image:
         "https://static.wixstatic.com/media/b49d96_c2029acf7fa8411e8122eb976a1e7aeb~mv2.webp",
       links: [
@@ -290,20 +296,39 @@ export const DATA = {
       ],
     },
     {
-      title: "Prod-E-G Hackathon",
-      dates: "Oct 17th - present, 2024",
+      title: "Foodoscope FORK IT Challenge",
+      dates: "Nov 3rd - Dec 14th, 2024",
+      winner: true,
+      
       location: "Delhi, Remote",
-      description:
-        "The problem statement for this hackathon was open-ended, so we decided to pitch our freelance website idea, initially developed for Smart India Hackathon (SIH). Our goal is to get valuable feedback on how to enhance the platform's AI-driven skill-based matching, integrated project management tools, real-time communication, and secure payment features to create a more seamless and efficient experience for both freelancers and clients.",
+      description:"Developed a comprehensive application leveraging the RecipeDB and FlavourDB APIs with features including recipe search based on filters like country, continent, and protein; ingredient substitution to find alternatives; compatibility checks for ingredient pairing; dish scanning to identify dishes from images; meal recommendations based on nutritional inputs; and chatbot integration using GrokLLM to answer user queries related to recipes, ingredients, and cooking techniques.",
       image:
-        "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-66ebc39029578_l.png?d=200x200",
+        "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/67208a37df86a_IIIT_Delhi_logo.jpg?d=200x200",
       links: [
-        
+        {
+          title: "Frontend",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/KniteenK/Dishcovery_frontend.git",
+        },
+        {
+          title: "Backend",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/KniteenK/Dichcovery_backend.git",
+        },
       ],
-    },
+    }
+    
     
   ],
   positions: [
+    {
+      title: "Mentor at Technical Council",
+      dates: "Oct 2024 - Present",
+      location: "IIIT-Delhi, Delhi",
+      postion: "Core Technical Team Member",
+      image: "data:image/png;base64,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", // Replace with actual path to IIIT-Delhi logo
+      
+    },
     {
       title: "ECell",
       dates: "Oct 2024 - Present",

@@ -4,9 +4,18 @@ import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Badge } from "@/components/ui/badge";
+import { Carousel } from "@/components/ui/carousel";
 import TypingAnimation from "@/components/ui/typing-animation";
 import { DATA } from "@/data/resume";
 import Markdown from "react-markdown";
+// import carousel from "@/components/ui/carousel";
+// import {
+//   Carousel,
+//   CarouselContent,
+//   CarouselItem,
+//   CarouselNext,
+//   CarouselPrevious,
+// } from "@/components/ui/carousel"
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
@@ -110,6 +119,9 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+
+
       <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -129,28 +141,44 @@ export default function Page() {
               </div>
             </div>
           </BlurFade>
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
-            {DATA.projects.map((project, id) => (
-              <BlurFade
-                key={project.title}
-                delay={BLUR_FADE_DELAY * 12 + id * 0.05}
-              >
-                <ProjectCard
-                  href={project.href}
-                  key={project.title}
-                  title={project.title}
-                  description={project.description}
-                  dates={project.dates}
-                  tags={project.technologies}
-                  image={project.image}
-                  video={project.video}
-                  links={project.links}
-                />
-              </BlurFade>
-            ))}
-          </div>
+
+          <Carousel className="relative">
+  <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+    
+    {DATA.projects.map((project, id) => (
+      <BlurFade
+        key={project.title}
+        delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+      >
+        <ProjectCard
+          href={project.href}
+          title={project.title}
+          description={project.description}
+          dates={project.dates}
+          tags={project.technologies}
+          image={project.image}
+          video={project.video}
+          links={project.links}
+        />
+      </BlurFade>
+    ))}
+  </div>
+  
+  {/* Position the previous and next buttons */}
+  {/* <div className="absolute top-1/2 left-0 transform -translate-y-1/2">
+    <CarouselPrevious />
+  </div>
+  <div className="absolute top-1/2 right-0 transform -translate-y-1/2">
+    <CarouselNext />
+  </div> */}
+</Carousel>
+
+
+          
         </div>
       </section>
+
+
       
       <section id="hackathons">
         <div className="space-y-12 w-full py-12">
@@ -183,6 +211,7 @@ export default function Page() {
                     dates={project.dates}
                     image={project.image}
                     links={project.links}
+                    winner = {project.winner}
                   />
                 </BlurFade>
               ))}
