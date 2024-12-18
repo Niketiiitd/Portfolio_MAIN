@@ -40,6 +40,12 @@ export const DATA = {
     email: "niketagarwal653@gmail.com",
     tel: "+91 8619631019",
     social: {
+      Resume: {
+        name: "Resume",
+        url: "https://www.overleaf.com/read/knhnfkjypbtg#f10ef7",
+        icon: "Resume",
+        navbar: true,
+      },
       linkedin: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/niket-agarwal-iiitd/",
@@ -62,7 +68,7 @@ export const DATA = {
         name: "Send Email",
         url: "mailto:niketagarwal653@gmail.com",
         icon: "mail", // Direct icon image source
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -102,33 +108,26 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Integrated Social Media Platform for Students",
-      href: "https://studenthub.com", // Update with actual link if available
-      dates: "June 2023 - Present", // Adjust dates as needed
-      active: true,
-      description:
-        "Developed a social media website enabling students to showcase projects, create reels, and chat in real-time, designed to function similarly to Instagram but focused on academic and creative projects.",
-      technologies: [
-        "Node.js",
-        "Express.js",
-        "React.js",
-        "MongoDB",
-        "Socket.io",
+      "title": "Anime Recommender System",
+      "href": "https://github.com/Niketiiitd/Anime_Recommender_System.git",
+      "dates": "September 2023 - October 2023",
+      "active": true,
+      "description": "Created a machine learning-based system to provide personalized anime recommendations. Optimized the recommendation pipeline by leveraging precomputed models and cosine similarity for scalability and fast response times.",
+      "technologies": [
+        "Python",
+        "Flask",
+        "Machine Learning",
+        "React"
       ],
-      links: [
-        // {
-        //   type: "Website",
-        //   href: "https://studenthub.com", // Update with actual link
-        //   icon: <Icons.globe className="size-3" />,
-        // },
+      "links": [
         {
-          type: "Source",
-          href: "https://github.com/Niketiiitd/StudentHub.git", // Your GitHub link
-          icon: <Icons.github className="size-3" />,
-        },
+          "type": "Source",
+          "href": "https://github.com/Niketiiitd/Anime_Recommender_System.git",
+          "icon": "<Icons.github className=\"size-3\" />"
+        }
       ],
-      image: "", // Add an image if available
-      video: "", // Add a video link if available
+      "image": "", // Add an image if available
+      "video": ""  // Add a video link if available
     },
     {
       title: "Freelancing Platform for India (Freelancers Network)",
@@ -158,6 +157,36 @@ export const DATA = {
       video: "", // Add a video link if available
     },
     {
+      title: "Integrated Social Media Platform for Students",
+      href: "https://studenthub.com", // Update with actual link if available
+      dates: "June 2023 - Present", // Adjust dates as needed
+      active: true,
+      description:
+        "Developed a social media website enabling students to showcase projects, create reels, and chat in real-time, designed to function similarly to Instagram but focused on academic and creative projects.",
+      technologies: [
+        "Node.js",
+        "Express.js",
+        "React.js",
+        "MongoDB",
+        "Socket.io",
+      ],
+      links: [
+        // {
+        //   type: "Website",
+        //   href: "https://studenthub.com", // Update with actual link
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+        {
+          type: "Source",
+          href: "https://github.com/Niketiiitd/StudentHub.git", // Your GitHub link
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "", // Add an image if available
+      video: "", // Add a video link if available
+    },
+    
+    {
       title: "Stick Hero Game Implementation",
       href: "https://stickhero.com", // Update with actual link if available
       dates: "September 2023 - November 2023", // Adjust dates as needed
@@ -180,27 +209,8 @@ export const DATA = {
       image: "", // Add an image if available
       video: "", // Add a video link if available
     },
-    {
-      title: "ShelfMaster (Bookstore Management Application)",
-      href: "https://shelfmaster.com", // Update with actual link if available
-      dates: "August 2023 - October 2023", // Adjust dates as needed
-      active: true,
-      description:
-        "Created a bookstore application for efficient inventory management and transactions, facilitating streamlined book cataloging and sales tracking using SQL and DBMS.",
-      technologies: [
-        "SQL",
-        "DBMS",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/Niketiiitd/DBMS_BOOKSTORE.git", // Your GitHub link
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "", // Add an image if available
-      video: "", // Add a video link if available
-    },
+    
+    
 ],
 
   hackathons: [
