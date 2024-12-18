@@ -123,7 +123,7 @@ export const DATA = {
         {
           "type": "Source",
           "href": "https://github.com/Niketiiitd/Anime_Recommender_System.git",
-          "icon": "<Icons.github className=\"size-3\" />"
+          "icon": "Source"
         }
       ],
       "image": "", // Add an image if available
