@@ -231,6 +231,9 @@ export default function Page() {
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 I like leading with purpose
                 </h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                I love guiding and growing with communities — from mentoring budding developers to leading impactful tech initiatives on campus.
+                </p>
               </div>
             </div>
           </BlurFade>

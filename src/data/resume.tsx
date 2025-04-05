@@ -7,9 +7,9 @@ export const DATA = {
   location: "Delhi, India",
   locationLink: "https://www.google.com/maps/place/delhi",
   description:
-  "Aspiring full-stack developer with a focus on machine learning and web development actively engaged in various technical projects and research.",
+  "Ill-stack dev who loves whipping up cool projects with code. I'm really into machine learning and devlopment, and I’m always down for a hackathon or some late-night coding. Right now, I'm all about diving into projects, doing research, and finding anything that helps me learn and grow!",
   summary:
-    "Aspiring full-stack developer passionate about machine learning and web development. Currently a student at IIIT-Delhi, I actively engage in diverse technical projects and research to broaden my expertise and drive innovation.",
+    "As a third-year computer science student, I am passionate about development, particularly in web development and related fields. I have a keen interest in data science and aspire to be a software developer. I am proficient in Python, C++, Java, and other programming languages, which enable me to tackle diverse challenges effectively. My academic journey has equipped me with a solid understanding of both theoretical concepts and practical applications. I also possess strong problem-solving skills, particularly in data structures and algorithms (DSA), which I have honed through various competitive programming and project-based experiences. I am eager to leverage my skills to contribute to innovative projects and further enhance my expertise in software development.",
   avatarUrl: "/me.png",
   skills: [
     // Programming Languages
@@ -144,7 +144,7 @@ export const DATA = {
     {
       school: "IIIT-Delhi",
       href: "https://iiitd.ac.in",
-      degree: "B.Tech in Computer Science and Biosciences",
+      degree: "B.Tech in Computer Science and Biosciences, CGPA: 7.72",
       logoUrl: "data:image/png;base64,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", // Replace with actual path to IIIT-Delhi logo
       start: "2022",
       end: "2026", // Adjust this according to your expected graduation year
@@ -152,11 +152,19 @@ export const DATA = {
   {
       school: "Nav Uday Sr. Sec. School",
       href: "", // Adjust URL if there's a specific link
-      degree: "High School, Percentage: 89%",
+      degree: "High School",
       logoUrl: "", // Replace with actual path to school logo if available
-      start: "2016",
+      start: "2020",
       end: "2022",
-  }
+  },
+  {
+    school: "Modern Public School",
+    href: "", // Adjust URL if there's a specific link
+    degree: "High School",
+    logoUrl: "", // Replace with actual path to school logo if available
+    start: "2012",
+    end: "2020",
+}
   
   ],
   projects: [
