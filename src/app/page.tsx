@@ -206,6 +206,7 @@ export default function Page() {
                 >
                   <HackathonCard
                     title={project.title}
+                    position=""
                     description={project.description}
                     location={project.location}
                     dates={project.dates}
@@ -228,7 +229,7 @@ export default function Page() {
                   Position of Responsiblities
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Position of Responsiblities
+                I like leading with purpose
                 </h2>
               </div>
             </div>
@@ -242,7 +243,8 @@ export default function Page() {
                 >
                   <HackathonCard
                     title={project.title}
-                    description={project.postion}
+                    position={project.postion}
+                    description={project.description}
                     location={project.location}
                     dates={project.dates}
                     image={project.image}

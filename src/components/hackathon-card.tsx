@@ -5,6 +5,7 @@ import Link from "next/link";
 
 interface Props {
   title: string;
+  position: string;
   description: string;
   dates: string;
   location: string;
@@ -19,6 +20,7 @@ interface Props {
 
 export function HackathonCard({
   title,
+  position,
   description,
   dates,
   location,
@@ -47,6 +49,10 @@ export function HackathonCard({
           {/* Dates */}
           {dates && (
             <time className="text-xs text-muted-foreground">{dates}</time>
+          )}
+          {/* position */}
+          {position && (
+            <time className="text-xs text-muted-foreground">{position}</time>
           )}
           {/* Location */}
           {location && (

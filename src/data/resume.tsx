@@ -12,25 +12,65 @@ export const DATA = {
     "Aspiring full-stack developer passionate about machine learning and web development. Currently a student at IIIT-Delhi, I actively engage in diverse technical projects and research to broaden my expertise and drive innovation.",
   avatarUrl: "/me.png",
   skills: [
-    "React.js",
-    "Next.js",
+    // Programming Languages
+    "Python",
     "JavaScript",
     "TypeScript",
-    "Node.js",
-    "Python",
     "C++",
     "Java",
+    "C",
     "SQL",
-    "MongoDB",
-    "Postgres",
+    "PHP",
+  
+    // Frameworks & Libraries
+    "React.js",
+    "Next.js",
     "Express.js",
     "Flask",
+    "Django",
+    "FastAPI",
+    "Node.js",
+    "TensorFlow",
+    "PyTorch",
+    "Scikit-learn",
+    "Keras",
+    "OpenCV",
+    "Librosa",
+    "Pandas",
+    "NumPy",
+    "Matplotlib",
+    "Seaborn",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Chakra UI",
+    "Redux",
     "Socket.io",
+  
+    // Tools & Technologies
     "Git",
+    "GitHub",
     "Linux",
+    "IntelliJ IDEA",
     "JavaFX",
-    "Axios"
+    "MySQL Workbench",
+    "VSCode",
+    "Figma",
+    "AWS",
+    "Postman",
+    "Docker",
+    "Kubernetes",
+    "WebSockets",
+  
+    // Databases
+    "MySQL",
+    "MongoDB",
+    "Firebase",
+    "PostgreSQL",
+    "SQLite",
+    "Redis",
+    "Neo4j"
   ],
+  
   
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -75,6 +115,18 @@ export const DATA = {
 
   work: [
     {
+      company: "MyAdmit.ai",
+      href: "https://www.myadmit.ai",
+      badges: [""],
+      location: "Delhi",
+      title: "Undergraduate Researcher",
+      logoUrl: "https://media.licdn.com/dms/image/v2/D4E0BAQFjrgx20vllDg/company-logo_100_100/B4EZUK_5CLHcAQ-/0/1739646276087?e=1749081600&v=beta&t=5bXvwzOTjSrh05uy0X9tN4NKNovQSrHNEsoHN2szukE",
+      start: "Jan 2025",
+      end: "Present",
+      description:
+        "Contributed across the full stack, including frontend development, backend API integration, data collection for machine learning models, and model training. Deployed and maintained the company’s website on AWS, ensuring 99.9% uptime with a scalable infrastructure. Developed and optimized algorithms for college recommendations, resume parsing, and web scraping, resulting in a 30% boost in system efficiency. Improved frontend usability based on user feedback, leading to a 20% increase in user engagement, while also contributing to marketing initiatives and product scaling strategies.",
+    },
+    {
       company: "Usable Security Lab",
       href: "https://iiitd.ac.in",
       badges: [],
@@ -86,6 +138,7 @@ export const DATA = {
       description:
         "Engaged in various machine learning projects under the supervision of Arun Balaji Buduru, focusing on developing and applying models to address security challenges.\n Participated in lab meetings and discussions to explore machine learning techniques and their applications in usable security.",
     },
+    
   ],
   education: [
     {
@@ -98,9 +151,9 @@ export const DATA = {
   },
   {
       school: "Nav Uday Sr. Sec. School",
-      href: "https://navudaysrsec.com", // Adjust URL if there's a specific link
+      href: "", // Adjust URL if there's a specific link
       degree: "High School, Percentage: 89%",
-      logoUrl: "/navuday-logo.png", // Replace with actual path to school logo if available
+      logoUrl: "", // Replace with actual path to school logo if available
       start: "2016",
       end: "2022",
   }
@@ -121,7 +174,7 @@ export const DATA = {
       ],
       "links": [
         {
-          "type": "Source",
+          "type": "Github",
           "href": "https://github.com/Niketiiitd/Anime_Recommender_System.git",
           icon: <Icons.github className="size-3" />,
         }
@@ -143,12 +196,12 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Source Frontend",
+          type: "Frontend",
           href: "https://github.com/KniteenK/HustlePe-frontend.git", // Your GitHub link
           icon: <Icons.github className="size-3" />,
         },
         {
-          type: "Source Backend",
+          type: "Backend",
           href: "https://github.com/KniteenK/Backend_HustlePe.git", // Your GitHub link
           icon: <Icons.github className="size-3" />,
         },
@@ -157,31 +210,49 @@ export const DATA = {
       video: "", // Add a video link if available
     },
     {
-      title: "Integrated Social Media Platform for Students",
+      title: "Reval: Decentralized Circular Marketplace",
       href: "https://studenthub.com", // Update with actual link if available
       dates: "June 2023 - Present", // Adjust dates as needed
       active: true,
       description:
-        "Developed a social media website enabling students to showcase projects, create reels, and chat in real-time, designed to function similarly to Instagram but focused on academic and creative projects.",
+        "Led a team of five to develop **Reval**, a decentralized circular marketplace using Node.js, React, Express, MongoDB, and Solidity, with secure transactions and transparent ownership via Ethereum smart contracts for listings, transfers, and real-time updates.",
       technologies: [
         "Node.js",
         "Express.js",
         "React.js",
         "MongoDB",
         "Socket.io",
+        "Solidity",
+        "Ethereum",
       ],
       links: [
-        // {
-        //   type: "Website",
-        //   href: "https://studenthub.com", // Update with actual link
-        //   icon: <Icons.globe className="size-3" />,
-        // },
         {
-          type: "Source",
-          href: "https://github.com/Niketiiitd/StudentHub.git", // Your GitHub link
+          type: "Frontend",
+          href: "https://github.com/Niketiiitd/Reval-Frontend.git",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Backend",
+          href: "https://github.com/Niketiiitd/Reval-Backend.git",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Web Extension",
+          href: "https://github.com/bhutanidev/reval_extension.git",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "ML Model",
+          href: "https://github.com/sanyakapoor27/Recommendation-System-HackTU",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Web3 Contracts",
+          href: "https://github.com/KniteenK/ReVal-Contracts.git",
           icon: <Icons.github className="size-3" />,
         },
       ],
+      
       image: "", // Add an image if available
       video: "", // Add a video link if available
     },
@@ -201,7 +272,7 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Source",
+          type: "Github",
           href: "https://github.com/Nikhil190804/StickHeroApplication.git", // Your GitHub link
           icon: <Icons.github className="size-3" />,
         },
@@ -326,13 +397,52 @@ export const DATA = {
           href: "https://github.com/KniteenK/Dichcovery_backend.git",
         },
       ],
-    }
+    },{
+      title: "HackTU",
+      dates: "Jan 10th - Jan 11th, 2025",
+      winner: false,
+      
+      location: "Thapar university, Punjab",
+      description:"Led a team of five in developing **Reval**, a decentralized circular marketplace built with Node.js, React, Express, MongoDB, and Solidity on the Ethereum blockchain. Ensured secure transactions and transparent ownership validation through smart contract integration. Designed and deployed smart contracts to manage product listings, ownership transfers, and real-time updates, significantly enhancing platform reliability and trust.",
+      image:
+        "https://assets.devfolio.co/hackathons/bbc3e9ee43094b5380e919dc941d35d3/assets/logo/257.png",
+      links: [
+        {
+          title: "Frontend",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/Niketiiitd/Reval-Frontend.git",
+        },
+        {
+          title: "Backend",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/Niketiiitd/Reval-Backend.git",
+        },
+        {
+          title: "Web Extension",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/bhutanidev/reval_extension.git",
+        },
+        
+        {
+          title: "ML Model",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/sanyakapoor27/Recommendation-System-HackTU",
+        },
+        {
+          title: "Web3 Contracts",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/KniteenK/ReVal-Contracts.git",
+        },
+
+      ],
+    },
     
     
   ],
   positions: [
     {
       title: "Mentor at Technical Council",
+      description: "Mentoring over 40 students in web development and related technologies, including GitHub, version control, and best practices. Focused on simplifying complex concepts, fostering hands-on learning, and supporting students in building real-world projects with confidence.",
       dates: "Oct 2024 - Present",
       location: "IIIT-Delhi, Delhi",
       postion: "Core Technical Team Member",
@@ -341,29 +451,33 @@ export const DATA = {
     },
     {
       title: "ECell",
+      description: "Leading the web development team to build and maintain platforms that support entrepreneurial initiatives, startup showcases, and flagship events. Driving the tech side of innovation by developing scalable and engaging web solutions, while mentoring junior developers in modern web technologies. Collaborating closely with design, content, and strategy teams to create impactful digital experiences that empower student entrepreneurship and startup culture on campus.",
       dates: "Oct 2024 - Present",
       location: "IIIT-Delhi, Delhi",
       postion: "Core Technical Team Member",
       image:
-        "https://media.licdn.com/dms/image/v2/C4E0BAQEhu6BlA60Hbw/company-logo_100_100/company-logo_100_100/0/1630651052888/iiitdecell_logo?e=1736985600&v=beta&t=1O32YQ1JWdNgqv3YnCeZshhyqyYg7MWoy7AGKiBF534",
+        "https://media.licdn.com/dms/image/v2/C4E0BAQEhu6BlA60Hbw/company-logo_200_200/company-logo_200_200/0/1630651052888/iiitdecell_logo?e=1749081600&v=beta&t=Fqm_hXlbWMCR9w2Cyu6r-aiMH6ixF0H-yuXW0oiFg1U",
+      
       
     },
     {
       title: "Cyfuse",
+      description: "Built and maintained the official CyFuse website, overseeing end-to-end development from UI/UX design to backend integration. Leading the web development team, mentoring junior developers, and ensuring smooth deployment and functionality. Collaborated with design and content teams to create a seamless and engaging digital experience for the community.",
       dates: "Aug 2024 - Present",
       location: "IIIT-Delhi, Remote",
       postion: "Core Technical Team Member",
       image:
-        "https://media.licdn.com/dms/image/v2/D4D0BAQHxmeHNOqyMOQ/company-logo_100_100/company-logo_100_100/0/1694672071069?e=1736985600&v=beta&t=Z_7xOVoWTZ01K3208IMWMyxxtGnwTlIPS3seWWXU4FE",
+        "https://media.licdn.com/dms/image/v2/D4D0BAQHxmeHNOqyMOQ/company-logo_100_100/company-logo_100_100/0/1694672071069?e=1749081600&v=beta&t=V_duwGlWMVPKFmJgMtEm_GNevQfw_v0f4Jn4riCmMiM",
       
     },
     {
       title: "LeanIN",
+      description: "Leading initiatives focused on empowering women in tech and academia by fostering a supportive and inclusive environment on campus. Organizing impactful events, peer sessions, and mentorship talks with seniors and alumni to help female students navigate college life, build confidence, and explore career opportunities. Actively working to create awareness around gender equality and promote personal and professional growth through community-driven efforts.",
       dates: "Oct 2023 - Present",
       location: "IIIT-Delhi, Remote",
       postion: "Team lead",
       image:
-        "https://media.licdn.com/dms/image/v2/C4E0BAQEgeasAMd2-lg/company-logo_100_100/company-logo_100_100/0/1630635052885/lean_in_iiitd_logo?e=1736985600&v=beta&t=0iQzFfyOAaLeXOVM2W-KviiEZR5IwaxLfpgsVRw6aOQ",
+        "https://media.licdn.com/dms/image/v2/C4E0BAQEgeasAMd2-lg/company-logo_100_100/company-logo_100_100/0/1630635052885/lean_in_iiitd_logo?e=1749081600&v=beta&t=r9TYe6rhKC8IPJSreFMzROXOUR_3VcWGyG2MzNvfm9Y",
       
     },
   ],
