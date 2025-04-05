@@ -82,7 +82,7 @@ export const DATA = {
     social: {
       Resume: {
         name: "googleDrive",
-        url: "https://www.overleaf.com/read/knhnfkjypbtg#f10ef7",
+        url: "https://drive.google.com/file/d/1G9gUJi4z3G7qR-Pgz_JjZwBSU6nBsU6z/view?usp=share_link",
         icon: "googleDrive",
         navbar: true,
       },
