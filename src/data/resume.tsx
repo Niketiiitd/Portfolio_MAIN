@@ -81,9 +81,9 @@ export const DATA = {
     tel: "+91 8619631019",
     social: {
       Resume: {
-        name: "Resume",
+        name: "googleDrive",
         url: "https://www.overleaf.com/read/knhnfkjypbtg#f10ef7",
-        icon: "Resume",
+        icon: "googleDrive",
         navbar: true,
       },
       linkedin: {
