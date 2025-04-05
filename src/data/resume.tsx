@@ -119,7 +119,7 @@ export const DATA = {
       href: "https://www.myadmit.ai",
       badges: [""],
       location: "Delhi",
-      title: "Undergraduate Researcher",
+      title: "Software Developer",
       logoUrl: "https://media.licdn.com/dms/image/v2/D4E0BAQFjrgx20vllDg/company-logo_100_100/B4EZUK_5CLHcAQ-/0/1739646276087?e=1749081600&v=beta&t=5bXvwzOTjSrh05uy0X9tN4NKNovQSrHNEsoHN2szukE",
       start: "Jan 2025",
       end: "Present",
