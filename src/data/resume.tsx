@@ -10,7 +10,7 @@ export const DATA = {
   "Ill-stack dev who loves whipping up cool projects with code. I'm really into machine learning and devlopment, and I’m always down for a hackathon or some late-night coding. Right now, I'm all about diving into projects, doing research, and finding anything that helps me learn and grow!",
   summary:
     "As a third-year computer science student, I am passionate about development, particularly in web development and related fields. I have a keen interest in data science and aspire to be a software developer. I am proficient in Python, C++, Java, and other programming languages, which enable me to tackle diverse challenges effectively. My academic journey has equipped me with a solid understanding of both theoretical concepts and practical applications. I also possess strong problem-solving skills, particularly in data structures and algorithms (DSA), which I have honed through various competitive programming and project-based experiences. I am eager to leverage my skills to contribute to innovative projects and further enhance my expertise in software development.",
-  avatarUrl: "/me.png",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQFzZHXS0TTknQ/profile-displayphoto-shrink_400_400/B56ZXpGYIcHoAg-/0/1743372518923?e=1749686400&v=beta&t=F8sY8t6mEpN73_2Fck4wMvx7wM1kYn5FbgHsfNUSGLE",
   skills: [
     // Programming Languages
     "Python",
